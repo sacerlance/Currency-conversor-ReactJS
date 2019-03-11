@@ -1,0 +1,64 @@
+
+.dropdownBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  background-color: lightgrey;
+  margin: auto auto;
+  width:50%;
+  margin-top: 5%;
+}
+
+.moneyBox {
+  width: 20%;
+  padding: 2%;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  width: auto;
+  border: 2px solid white;
+}
+
+.exchangeText {
+  font-size: 20px;
+  width:100%;
+  padding: 2%;
+}
+
+.convertButton {
+  width:50%;
+  margin-top: 5%;
+  padding: 2px;
+  margin-bottom:10%;
+  background-color: #127DA7;
+}
+
+.conversion {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdownBox{
+    margin: auto auto;
+    width:80%;
+    margin-top: 20%;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .dropdownBox{
+    margin: auto auto;
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .dropdownBox{
+    margin: auto auto;
+    margin-top: 5%;
+  }
+}
