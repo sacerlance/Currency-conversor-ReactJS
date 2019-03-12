@@ -6,7 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyBN5bvDJjP6r5SRLUyatTPmRoQ348h856o',
+  apiKey: '',
   authDomain: 'conversor-6b813.firebaseapp.com',
   databaseURL: 'https://conversor-6b813.firebaseio.com',
   projectId: 'conversor-6b813',
